@@ -22,13 +22,20 @@ forecast.GetHourlyForecastData(40.7142,-74.0064,function(hourly_data){
 		'humidity'
 	];
 
+	var time = new Date();
+	for(var i in hourly_data)
+	{
+		time.setTime(hourly_data[i].time*1000);
+		hourly_data[i].time = time.toString();
+
+		hourly_data[i].humidity = hourly_data[i].humidity*100; 
+	}
+
 	output_data.CreateCSVFromJSON(headers,keys,'HourlyWeather.csv',hourly_data);
 });
 
 
 
 /*
-  	json = data.hourly.data[i];
-  	time.setTime(json.time*1000);
-  	output += time.toString() 
+
 */
