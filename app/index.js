@@ -1,3 +1,1 @@
-//index.js
-
-require('./weather.js');
+var forecast_test = require('./forecast.test.js');

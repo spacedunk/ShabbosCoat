@@ -11,3 +11,13 @@ module.exports.write_file = function (filename, dataToBeWritten)
 	});
 }
 
+module.exports.read_file = function (filename,callback)
+{
+	fs.readFile(filename,'',function(err,data){
+		if(err)
+		{
+			console.log(err);
+		}
+		callback(data);
+	});
+}

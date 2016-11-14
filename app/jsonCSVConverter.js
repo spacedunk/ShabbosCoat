@@ -1,4 +1,4 @@
-//output_data.js
+//jsonCSVConverter.js
 var file_stream = require('./file_stream.js');
 
 module.exports.CreateCSVFromJSON = function(headers,keys,filename,data)
@@ -36,4 +36,11 @@ function CreateRow(array)
   
   output += '\n';
   return output;
+}
+
+module.exports.CreateJSONFromCSV = function(filepath,callback)
+{
+  file_stream.read_file(filepath,function(data){
+    callback(data);
+  });
 }
