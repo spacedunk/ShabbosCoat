@@ -30,10 +30,16 @@ module.exports.OutputHourlyWeatherToCSV = function ()
 
 module.exports.ImportWeatherInfoFromCSV = function (filename,callback) 
 {
-	jsonCSVConverter.CreateJSONFromCSV(process.env.TEST_DATA_DIR, function(data){
-		console.log(data);
-		callback(data);
-	});	
+	var keys = 
+	[
+		'time',
+		'summary',
+		'icon',
+		'temperature',
+		'humidity'
+	];
+
+	jsonCSVConverter.CreateJSONFromCSV(keys,process.env.TEST_DATA_DIR,callback);
 }
 
 function GetHourlyWeatherData(lat,long,callback) 

@@ -16,10 +16,8 @@ module.exports.DoINeedACoat = function(lat,long,callback)
 	 else
 	 {
 	 	forecast_test.ImportWeatherInfoFromCSV('',function(weather_data) {
-	 		WeatherData = JSON.parse(weather_data);
-	 		console.log(weather_data);
-	 		console.log(WeatherData);
-	 		callback('Yes');
+	 		WeatherData = weather_data;
+	 		callback(WeatherData);
 	 	});
 	 }
 }

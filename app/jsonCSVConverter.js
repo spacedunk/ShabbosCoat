@@ -38,9 +38,24 @@ function CreateRow(array)
   return output;
 }
 
-module.exports.CreateJSONFromCSV = function(filepath,callback)
+module.exports.CreateJSONFromCSV = function(keys,filepath,callback)
 {
-  file_stream.read_file(filepath,function(data){
-    callback(data);
+  file_stream.read_file(filepath,function(data_string){
+    var JSON_String = '{"data":[{';
+    var temp_arr = [];
+    var data_array = data_string.split('\n');
+    for (var i = 1; i < data_array.length-1; i++) 
+    {
+       temp_arr = data_array[i].split(',');
+       for (var j = 0; j < temp_arr.length-1; j++) 
+       {
+         JSON_String += '"' + keys[j] + '":' + '"' + temp_arr[j] + '",';
+       }
+       JSON_String = JSON_String.substr(0,JSON_String.length-1);
+       JSON_String += "},{";
+    }
+    JSON_String = JSON_String.substr(0,JSON_String.length-2);
+    JSON_String += "]}";
+    callback(JSON.parse(JSON_String));
   });
 }
