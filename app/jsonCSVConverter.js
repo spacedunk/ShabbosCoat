@@ -59,3 +59,13 @@ module.exports.CreateJSONFromCSV = function(keys,filepath,callback)
     callback(JSON.parse(JSON_String));
   });
 }
+
+function JSONCSVConverter(options)
+{ 
+  //Q: What info is needed for the JSON converter?
+  
+    // Header: if null then we are going to exclde
+    // Starting Row: if null start from 1
+    // Keys: When creating the JSON  
+  
+}

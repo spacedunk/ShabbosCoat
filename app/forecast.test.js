@@ -35,7 +35,7 @@ module.exports.ImportWeatherInfoFromCSV = function (filename,callback)
 		'time',
 		'summary',
 		'icon',
-		'temperature',
+		'temprature',
 		'humidity'
 	];
 

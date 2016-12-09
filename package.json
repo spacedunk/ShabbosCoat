@@ -4,7 +4,7 @@
   "description": "Application to display the weather for those that are Sabbath observant",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/weather.test.js",
+    "test": "mocha ./tests/",
     "start": "node index.js"
   },
   "author": "Eric Keehn",
