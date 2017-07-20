@@ -1,0 +1,785 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"Shabbos_Weather"
+			],
+			[
+				"hou",
+				"hours_ahead"
+			],
+			[
+				"temp",
+				"temprature"
+			],
+			[
+				"h",
+				"hours_ahead"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"Do",
+				"DoINeedACoat"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"JSON",
+				"JSON_String"
+			],
+			[
+				"J",
+				"JSON_String"
+			],
+			[
+				"length",
+				"length-1"
+			],
+			[
+				"data",
+				"data_array"
+			],
+			[
+				"Weather",
+				"WeatherData"
+			],
+			[
+				"Weater",
+				"WeatherData"
+			],
+			[
+				"Weat",
+				"WeatherData"
+			],
+			[
+				"WE",
+				"WeatherData"
+			],
+			[
+				"fore",
+				"forecast"
+			],
+			[
+				"forecast",
+				"forecast_test"
+			],
+			[
+				"We",
+				"WeatherData"
+			],
+			[
+				"json",
+				"jsonCSVConverter"
+			],
+			[
+				"weather",
+				"weather_data"
+			],
+			[
+				"fil",
+				"file_stream"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"W",
+				"WillItRainOrSnow"
+			],
+			[
+				"Create",
+				"CreateRow"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"a",
+				"answer2"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"test",
+				"test_images"
+			],
+			[
+				"ima",
+				"imageSizeLimit"
+			],
+			[
+				"Image",
+				"ImageUploadExceptionBase"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"Ima",
+				"ImageUploadExceptionBase"
+			],
+			[
+				"eror",
+				"error_log"
+			],
+			[
+				"ImageUpl",
+				"ImageUploadException"
+			],
+			[
+				"_",
+				"__construct"
+			],
+			[
+				"err",
+				"error_log"
+			],
+			[
+				"PDF",
+				"PDFExporter"
+			],
+			[
+				"D",
+				"DOCUMENT_ROOT"
+			],
+			[
+				"dom",
+				"domHTML"
+			],
+			[
+				"sr",
+				"src"
+			],
+			[
+				"html",
+				"html\thtml"
+			],
+			[
+				"Te",
+				"Text"
+			],
+			[
+				"T",
+				"TestQuestions"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"preview",
+				"previewAsHTML"
+			],
+			[
+				"Get",
+				"GetTestQuestions"
+			],
+			[
+				"Tes",
+				"TestQuestions"
+			],
+			[
+				"Q",
+				"QuestionNumber"
+			],
+			[
+				"p_",
+				"p_tid"
+			],
+			[
+				"t",
+				"T_ID"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"req",
+				"require_once"
+			],
+			[
+				"Date",
+				"date_timestamp_get"
+			],
+			[
+				"as",
+				"asXML"
+			],
+			[
+				"simpl",
+				"simplexml_load_file"
+			],
+			[
+				"simple",
+				"simplexml_load_file"
+			],
+			[
+				"File",
+				"FileConfig"
+			],
+			[
+				"Uplo",
+				"UploadImage"
+			],
+			[
+				"confi",
+				"config"
+			],
+			[
+				"Simpl",
+				"simplexml_load_file"
+			],
+			[
+				"config",
+				"config"
+			],
+			[
+				"Im",
+				"imageTypes"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"Ok",
+				"OKToUpload"
+			],
+			[
+				"taget",
+				"target_file"
+			],
+			[
+				"increment",
+				"incrementOrFail"
+			],
+			[
+				"up",
+				"uploadOk"
+			],
+			[
+				"ta",
+				"target_file"
+			],
+			[
+				"fileIma",
+				"fileImage"
+			],
+			[
+				"P",
+				"p_id"
+			],
+			[
+				"p",
+				"p_answer"
+			],
+			[
+				"get",
+				"getPDF"
+			],
+			[
+				"txt",
+				"txtExport"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"me",
+				"meta"
+			],
+			[
+				"con",
+				"connInfo"
+			],
+			[
+				"asser",
+				"assertEmpty"
+			],
+			[
+				"ass",
+				"assert_options"
+			],
+			[
+				"Ma",
+				"MathPOC_DB"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"stat",
+				"statement"
+			],
+			[
+				"S",
+				"SELECT"
+			],
+			[
+				"Fet",
+				"FETCH_ASSOC"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"pre",
+				"prepare"
+			],
+			[
+				"PDO",
+				"PDOException"
+			],
+			[
+				"conn",
+				"conn_string"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"header",
+				"header"
+			],
+			[
+				"on",
+				"onclick\tAttr"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"m",
+				"mymap"
+			],
+			[
+				"num",
+				"num_of_lines"
+			],
+			[
+				"nu",
+				"num_of_lines"
+			],
+			[
+				"in",
+				"integer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/ekeehn/Code Work/ShorYoshuvWebSite/lib/Cake/Cache/Engine/FileEngine.php",
+			"settings":
+			{
+				"buffer_size": 8453,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/View/Pages/home.ctp",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/index.html",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/index.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Config/core.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/lib/Cake/Console/Command/Task/DbConfigTask.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/lib/Cake/Model/Model.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Config/database.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Config/routes.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Model/Datasource/database.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/BACKUP/lib/Cake/View/View.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/lib/Cake/Test/test_app/View/Elements/test_element.xml",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Controller/SeatsController.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Plugin/AclExtras/AclExtrasShell.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Plugin/AclExtras/AclExtras.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/View/Applications/apply.ctp",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/app/jsonCSVConverter.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/app/forecast.test.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/tests/weather.test.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/package.json",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/app/Shabbos_Weather.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/tests/SampleData.csv",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/logs/info.py",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/index.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Model/Newsletter.php",
+		"/home/ekeehn/Code Work/ShorYoshuvWebSite/app/Controller/PagesController.php",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/node_modules/forecast.io/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/DEV.env",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/app/file_stream.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/node_modules/forecast.io/test/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/node_modules/johnnys-weather/yahoo.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/app/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/HourlyWeather.csv",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/app/output_data.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/app/forecast.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/.gitignore",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/AddTwoNumbers/app/calc.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/test.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/HourlyTemp.csv",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/node_modules/forecast/providers/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/node_modules/forecast/providers/forecast.io/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/ShabbosWeatherApp/node_modules/forecast/examples/forecast.io.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/BasicNodeJSApp/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/BasicNodeJSApp/app/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/AddTwoNumbers/app/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/app/index.js",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/package.json",
+		"/home/ekeehn/Code Work/Getting Started with NodeJS/app/calc.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/ImageUploaderException.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/CreateQuestion.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/Tests/MathPOCDB.Test.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/ExportToPDF.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/ExamPOC.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/Questions.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/dompdf/dompdf/src/Dompdf.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/dompdf/dompdf/src/FrameReflower/Image.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/dompdf/dompdf/src/FrameDecorator/Block.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/EditTestQuestions.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/dompdf/dompdf/src/Cellmap.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/dompdf/dompdf/src/Options.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/dompdf/dompdf/autoload.inc.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/ExamPOC.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/js/GetPDF.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/js/ExamPOC.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/js/EditTestQuestions.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/TestQuestions.php",
+		"/home/ekeehn/Documents/June 2016 Purple Notes/2R.csv",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/Users.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/Sortable/README.md",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/sql/TestQuestions.sql",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/config/ImageUploader.xml",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/ImageUploader.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/js/CreateQuestions.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/Tests.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/libs/Sortable/Sortable.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/CreateTest.html",
+		"/home/ekeehn/Code Work/HackerRank/Trees/PreOrderTraversal.cpp",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/js/CreateTest.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/php/MathPOC_DB.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/ExamPOC.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/CreateTest.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/Tests.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/ImageUploader.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/ImageUploader.xml",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/CreateQuestions.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/Questions.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/Tests.sql",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/FileUpload.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/config.xml",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/FileUploader.config.xml",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/ExportToPDF.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/MathPOC_DB.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/Users.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/Questions.sql",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/ExamPOC.js",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/ConnectionInfo.xml",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/MathMLPOC.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/Tests/MathPOCDBTest.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/SampleTest.html",
+		"/home/ekeehn/Code Work/MathML Examples/MathMLPOC.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/dompdf/tests/Dompdf/Tests/DompdfTest.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/dompdf/tests/bootstrap.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/prince-php5-r15/prince.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/TableRows.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Release/MathPOC_DB.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Release/ExamPOC.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Release/ExamPOC.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/ExamPOC.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/ExamPOC.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/MathTable.php",
+		"/etc/init.d/apache2",
+		"/etc/apache2/apache2.conf",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/ekeehnCredentials.xml",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/GenericDatabaseTestcase.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/MathPOCDBTest.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/Source/Development/MathPOC_DB.test.php",
+		"/home/ekeehn/Code Work/MathTestApp/POC/ExamPOC.html",
+		"/home/ekeehn/Code Work/MathTestApp/POC/ExamPOC.php",
+		"/home/ekeehn/Desktop/Grid Challenge.py",
+		"/home/ekeehn/Desktop/GridChallenge.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"seats",
+			"60",
+			"weather",
+			"output_data",
+			"data.hourly[i]",
+			"hourly",
+			"hour",
+			"i",
+			"hourly",
+			"hour",
+			"base",
+			"pdf",
+			"dom",
+			"onAdd",
+			"pull",
+			"in",
+			"IN",
+			"in",
+			"IN",
+			"p_date",
+			"IN",
+			"in",
+			"IN",
+			"target_file",
+			"function",
+			"imageTypes",
+			"public",
+			"ConnectionInfo",
+			"uploadOk",
+			"<?php\n$target_dir = \"Images/\";\n$target_file = $target_dir . $_POST[\"Title\"];\n$uploadOk = 1;\n$counter = 0;\n$imageFileType = pathinfo($target_dir . basename($_FILES[\"fileImage\"][\"name\"]),PATHINFO_EXTENSION);\n\n\n// Check if image file is a actual image or fake image\nif(isset($_POST[\"submit\"])) {\n    $check = getimagesize($_FILES[\"fileImage\"][\"tmp_name\"]);\n    if($check !== false) {\n        //echo \"File is an image - \" . $check[\"mime\"] . \".\";\n        $uploadOk = 1;\n    } else {\n        echo \"File is not an image.\";\n        $uploadOk = 0;\n    }\n}\n// Check if file already exists\nwhile (file_exists($target_file)) {\n\t++$counter;\n\t$target_file = $target_file.\"-\".$counter;\n}\n// Check file size\nif ($_FILES[\"fileImage\"][\"size\"] > 500000) {\n    echo \"Sorry, your file is too large.\";\n    $uploadOk = 0;\n}\n// Allow certain file formats\nif($imageFileType != \"jpg\" && $imageFileType != \"png\" && $imageFileType != \"jpeg\"\n&& $imageFileType != \"gif\" ) {\n    echo \"Sorry, only JPG, JPEG, PNG & GIF files are allowed.\";\n    $uploadOk = 0;\n}\n// Check if $uploadOk is set to 0 by an error\nif ($uploadOk == 0) {\n    echo \"Sorry, your file was not uploaded.\";\n// if everything is ok, try to upload file\n} else {\n    if (move_uploaded_file($_FILES[\"fileImage\"][\"tmp_name\"], $target_file)) {\n        echo \"The file \". $_POST[\"Title\"]. \" has been uploaded.\";\n    } else {\n        echo \"Sorry, there was an error uploading your file.\";\n    }\n}\n\nclass ImageUploader\n{\n\tprotected $target_dir = \"\";\n\tprotected $target_file = \"\";\n\tprotected $uploadOk = 0;\n}\n?>",
+			"uploadOk",
+			"_POST",
+			"_FILES",
+			"fileToUpload",
+			"_REQUEST",
+			"text",
+			"imageFile",
+			"IN",
+			"include",
+			"this->",
+			"self::$",
+			"servername",
+			"MatchPOC_DB",
+			"->",
+			"this->",
+			"MySQLDAL"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/ekeehn/Code Work/ShorYoshuvWebSite/lib/Cake/Cache/Engine/FileEngine.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7604,
+								7604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4102.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "ShabbosWeatherApp.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"usedbconfig",
+				"ShorYoshuvWebSite/lib/Cake/Console/Command/Task/DbConfigTask.php"
+			],
+			[
+				"element",
+				"ShorYoshuvWebSite/lib/Cake/Test/test_app/View/Elements/test_element.xml"
+			],
+			[
+				"seats",
+				"ShorYoshuvWebSite/app/Controller/SeatsController.php"
+			],
+			[
+				"",
+				"ShorYoshuvWebSite/app/View/Pages/home.ctp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 432.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

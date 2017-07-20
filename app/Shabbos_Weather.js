@@ -1,3 +1,5 @@
+'use strict'
+
 //Shabbos_Weather.js
 var forecast = require('./forecast.js');
 var forecast_test = require('./forecast.test.js');
@@ -14,12 +16,12 @@ Shabbos_Weather.prototype.DoINeedACoat = function DoINeedACoat(lat,long,callback
 	console.log(hours_ahead);
 	console.log(temprature);
 
-	this.GetData(function(weather_data){
+	this.GetData(lat,long,function(weather_data){
 		for (var i = hours_ahead - 1; i >= 0; i--) 
 		{
 
-			if(typeof weather_data.data[i].temprature == "string") w_temp = parseFloat(weather_data.data[i].temprature);
-			else w_temp = weather_data.data[i].temprature;  
+			if(typeof weather_data[i].temperature == "string") w_temp = parseFloat(weather_data[i].temperature);
+			else w_temp = weather_data[i].temperature;  
 
 			if(w_temp <= temprature) coat = true;
 
@@ -31,16 +33,17 @@ Shabbos_Weather.prototype.DoINeedACoat = function DoINeedACoat(lat,long,callback
 
 }
 
-function Shabbos_Weather(temp_threashhold,hours_forward) {
+function Shabbos_Weather(temp_threashhold,hours_forward,options) {
 	this.temprature = temp_threashhold;
 	this.hours_ahead = hours_forward;
 };
 
-Shabbos_Weather.prototype.GetData = function(callback)
+Shabbos_Weather.prototype.GetData = function(lat,long,callback)
 {
-	if(process.env.ENVIRONMENT != 'DEV')
+	if(process.env.UNIT_TESTING != true)
 	 {
-	 	forecast.GetHourlyWeatherData(lat , long, function(weather_data){
+		 console.log(lat + ' : ' + long);
+	 	forecast.GetHourlyForecastData(lat , long, function(weather_data){
 	 		callback(weather_data);
 	 	});
 	 }
