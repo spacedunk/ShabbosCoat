@@ -1,0 +1,60 @@
+[33mcommit 6582419c4a3f9a12ea90dd9994ca0bb772a01aaa[m
+Author: Spacedunk <spacedunk@gmail.com>
+Date:   Thu Jul 20 12:08:56 2017 -0400
+
+    Added RESTful API. Fixed issue with Lattitude and Longitude.
+
+[33mcommit 4eaa206be05ef395a00ce834118a3bc2217f9565[m
+Author: Spacedunk <spacedunk@gmail.com>
+Date:   Thu Dec 8 19:13:03 2016 -0500
+
+    Corrected spelling of temprature in header that is passed to JSON converter
+    Refactored tests, removed tests that dont describe the functionality, added Hooks before and beforeEach to setup tests
+    Only run tests if there is test data
+    Changed package to run all tests in test folder.
+
+[33mcommit c43608a53cea7e818b37f38f013c4cd189bb1934[m
+Author: Spacedunk <spacedunk@gmail.com>
+Date:   Thu Nov 17 14:52:32 2016 -0500
+
+    Added proper constructor
+    Moved data retreival to its own function instead of Coat function
+
+[33mcommit fe62bc75e97f42ba273be7ca73e80f41a483f813[m
+Author: Spacedunk <spacedunk@gmail.com>
+Date:   Tue Nov 15 12:11:23 2016 -0500
+
+    Set up unit test using Stored CSV as test data.
+
+[33mcommit 70c5934338cf91faa66a35c5413982d52baae41f[m
+Author: Spacedunk <spacedunk@gmail.com>
+Date:   Mon Nov 14 13:13:11 2016 -0500
+
+    Cleaned up code for better readability and clarity
+    Began work on unit tests using Mocha
+
+[33mcommit 5fdf3d8950045ac8645b7c5008326cda03974205[m
+Author: Spacedunk <spacedunk@gmail.com>
+Date:   Fri Aug 19 13:39:12 2016 -0400
+
+    Formatted Time and Humidity before sending to CSV Output
+
+[33mcommit a91f00d64c0fd2a1d11220753e2643ec7a62ffb0[m
+Author: Spacedunk <spacedunk@gmail.com>
+Date:   Fri Aug 19 09:59:10 2016 -0400
+
+    Seperated out into seperate files for
+    
+    Getting Forecast (forecast.js)
+    Outputting Data to CSV (output_data.js)
+
+[33mcommit 4cd7dd9f4f9237c9e0e3ca61446e52bba2dfc62a[m
+Author: Spacedunk <spacedunk@gmail.com>
+Date:   Thu Aug 18 19:32:56 2016 -0400
+
+    Initial Commit:
+    
+    Created Package
+    Retrieve Data from Forecast.io
+    Add data to String
+    Write String to CSV file for confirmation

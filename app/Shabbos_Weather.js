@@ -40,7 +40,7 @@ function Shabbos_Weather(temp_threashhold,hours_forward,options) {
 
 Shabbos_Weather.prototype.GetData = function(lat,long,callback)
 {
-	if(process.env.UNIT_TESTING != true)
+	if(process.env.UNIT_TESTING != 'true')
 	 {
 		 console.log(lat + ' : ' + long);
 	 	forecast.GetHourlyForecastData(lat , long, function(weather_data){
@@ -50,7 +50,7 @@ Shabbos_Weather.prototype.GetData = function(lat,long,callback)
 	 else
 	 {
 	 	forecast_test.ImportWeatherInfoFromCSV('',function(weather_data) {
-	 		callback(weather_data);
+	 		callback(weather_data.data);
 	 	});
 	 }
 }
