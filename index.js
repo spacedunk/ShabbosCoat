@@ -1,4 +1,8 @@
-require('dotenv').config({path:'./DEV.env'});
+var fs = require('fs');
+fs.stat('./DEV.env', function(err, stat){
+    if(err == null) require('dotenv').config({path:'./DEV.env'});
+    else if (err.code != 'ENOENT') console.log('There was an error loading the config: ', err.code);
+});
 var express = require('express'),
     app = express(),
     port = process.env.PORT || 3030,
