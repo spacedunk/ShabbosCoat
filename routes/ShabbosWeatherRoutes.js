@@ -5,5 +5,8 @@ module.exports = function(app) {
 
     app.route('/ShabbosWeather/:long/:lat')
         .get(sWeatherController.DoINeedACoat_Default);
-    app.route('/ShabbosWeather/:long/:lat/:threshhold/:hours').get(sWeatherController.DoINeedACoat);
+    app.route('/ShabbosWeather/:long/:lat/:threshhold/:hours')
+        .get(sWeatherController.DoINeedACoat);
+    app.route('/ShabbosWeather/:long/:lat/:threshhold/:hours/:options')
+        .get(sWeatherController.DoINeedACoat_WithOptions);
 };

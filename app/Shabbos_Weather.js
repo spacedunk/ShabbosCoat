@@ -10,6 +10,7 @@ Shabbos_Weather.prototype.DoINeedACoat = function DoINeedACoat(lat,long,callback
 {
 	var hours_ahead = this.hours_ahead;
 	var temprature = parseFloat(this.temprature);
+	var options = this.options;
 	var w_temp;
 	var coat = false;
 
@@ -17,25 +18,50 @@ Shabbos_Weather.prototype.DoINeedACoat = function DoINeedACoat(lat,long,callback
 	console.log(temprature);
 
 	this.GetData(lat,long,function(weather_data){
-		for (var i = hours_ahead - 1; i >= 0; i--) 
+		if(options.UseAvg == true)
 		{
+			var sum = avg = 0.0;
+			for (var i = hours_ahead - 1; i >= 0; i--) 
+			{
 
-			if(typeof weather_data[i].temperature == "string") w_temp = parseFloat(weather_data[i].temperature);
-			else w_temp = weather_data[i].temperature;  
+				if(typeof weather_data[i].temperature == "string") w_temp = parseFloat(weather_data[i].temperature);
+				else w_temp = weather_data[i].temperature;  
 
-			if(w_temp <= temprature) coat = true;
+				sum += w_temp;
+			}
 
-			if(process.env.ENVIRONMENT == 'DEV') console.log('Data: ' + w_temp + ' Target: ' + temprature + ' Result: ' + coat);
+			var avg = Math.round((sum / hours_ahead));
+
+			if(avg <= temprature) coat = true;
+			
+			if(process.env.ENVIRONMENT == 'DEV') console.log('Average: ' + avg + ' Target: ' + temprature + ' Result: ' + coat);
+
+			callback(coat);	
+		}
+		else
+		{
+			for (var i = hours_ahead - 1; i >= 0; i--) 
+			{
+
+				if(typeof weather_data[i].temperature == "string") w_temp = parseFloat(weather_data[i].temperature);
+				else w_temp = weather_data[i].temperature;  
+
+				if(w_temp <= temprature) coat = true;
+
+				if(process.env.ENVIRONMENT == 'DEV') console.log('Data: ' + w_temp + ' Target: ' + temprature + ' Result: ' + coat);
+			}
+
+			callback(coat);	
 		}
 
-		callback(coat);
 	});
 
 }
 
-function Shabbos_Weather(temp_threashhold,hours_forward,options) {
+function Shabbos_Weather(temp_threashhold,hours_forward,options={UseAvg : false}) {
 	this.temprature = temp_threashhold;
 	this.hours_ahead = hours_forward;
+	this.options = options;
 };
 
 Shabbos_Weather.prototype.GetData = function(lat,long,callback)
@@ -53,6 +79,21 @@ Shabbos_Weather.prototype.GetData = function(lat,long,callback)
 	 		callback(weather_data.data);
 	 	});
 	 }
+}
+
+Shabbos_Weather.prototype.AnyTempBelowThreshold = function(weather_data){
+	for (var i = hours_ahead - 1; i >= 0; i--) 
+	{
+
+		if(typeof weather_data[i].temperature == "string") w_temp = parseFloat(weather_data[i].temperature);
+		else w_temp = weather_data[i].temperature;  
+
+		if(w_temp <= temprature) coat = true;
+
+		if(process.env.ENVIRONMENT == 'DEV') console.log('Data: ' + w_temp + ' Target: ' + temprature + ' Result: ' + coat);
+	}
+
+	callback(coat);
 }
 
 module.exports.Shabbos_Weather = Shabbos_Weather;
