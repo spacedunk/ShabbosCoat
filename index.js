@@ -6,7 +6,7 @@ fs.stat('./DEV.env', function(err, stat){
 var express = require('express'),
     app = express(),
     port = process.env.PORT || 3030,
-    hostname = process.env.HOSTNAME || 'localhost',
+    hostname = process.env.HOSTNAME || '0.0.0.0',
     bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({extended : true}));
