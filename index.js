@@ -15,6 +15,6 @@ app.use(bodyParser.json());
 var routes = require('./routes/ShabbosWeatherRoutes');
 routes(app);
 
-app.listen(port, hostname);
+app.listen(port);
 
 console.log('Shabbos Weather Web Service Running');
