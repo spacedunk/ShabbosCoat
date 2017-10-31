@@ -6,11 +6,7 @@ fs.stat('./DEV.env', function(err, stat){
 var express = require('express'),
     app = express(),
     port = process.env.PORT || 3030,
-<<<<<<< HEAD
     hostname = process.env.HOSTNAME || '0.0.0.0',
-=======
-    //hostname = process.env.HOSTNAME || 'localhost',
->>>>>>> f00ad438f3194356c8f5ed25f731e88be48a2687
     bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({extended : true}));
@@ -19,6 +15,6 @@ app.use(bodyParser.json());
 var routes = require('./routes/ShabbosWeatherRoutes');
 routes(app);
 
-app.listen(port);
+app.listen(port,hostname);
 
 console.log('Shabbos Weather Web Service Running');
