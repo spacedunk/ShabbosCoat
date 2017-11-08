@@ -3,10 +3,8 @@
 module.exports = function(app) {
     var sWeatherController = require('../controller/ShabbosWeatherController');
 
-    app.route('/ShabbosWeather/:long/:lat')
+    app.route('/ShabbosWeather/')
         .get(sWeatherController.DoINeedACoat_Default);
-    app.route('/ShabbosWeather/:long/:lat/:threshhold/:hours')
+    app.route('/ShabbosWeather/:data')
         .get(sWeatherController.DoINeedACoat);
-    app.route('/ShabbosWeather/:long/:lat/:threshhold/:hours/:options')
-        .get(sWeatherController.DoINeedACoat_WithOptions);
 };

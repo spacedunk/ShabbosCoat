@@ -1,15 +1,8 @@
 var s_weather = require('../app/Shabbos_Weather.js');
-
-exports.DoINeedACoat_WithOptions = function(req,res) {
-    var sw = new s_weather.Shabbos_Weather(req.params.threshhold,req.params.hours,JSON.parse(req.params.options));
-        sw.DoINeedACoat(req.params.lat,req.params.long,function(coat){
-            res.json({ coat : coat});
-        });
-};
-
 exports.DoINeedACoat = function(req,res) {
-    var sw = new s_weather.Shabbos_Weather(req.params.threshhold,req.params.hours);
-        sw.DoINeedACoat(req.params.lat,req.params.long,function(coat){
+    var json_data = JSON.parse(req.params.data);
+    var sw = new s_weather.Shabbos_Weather(json_data.threshhold,json_data.hours,json_data.options);
+        sw.DoINeedACoat(json_data.lat,json_data.long,function(coat){
             res.json({ coat : coat});
         });
 };
